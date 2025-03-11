@@ -16,12 +16,9 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
@@ -45,8 +42,16 @@
                 <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Content="Zatwierdź dane"></Button>
                 
                 <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,20,0,20" FontSize="20">Pytania:</TextBlock>
-                <TextBlock Grid.Row="5" Grid.Column="0" Text="Czy lubisz programować:"></TextBlock>
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Czy lubisz programować:" Margin="10"></TextBlock>
                 <TextBox Grid.Row="5" Grid.Column="1"></TextBox>
+                
+                <TextBlock Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="W których języka przyjemnie ci się programuje:" Margin="0,20,0,0"></TextBlock>
+                
+                <CheckBox Grid.Row="7" Grid.Column="0" Margin="10" Content="C#"> </CheckBox>
+                <CheckBox Grid.Row="7" Grid.Column="1" Margin="10" Content="Kotlin"> </CheckBox>
+                
+                <CheckBox Grid.Row="8" Grid.Column="0" Margin="10" Content="Pythona"> </CheckBox>
+                <CheckBox Grid.Row="8" Grid.Column="1" Margin="10" Content="JavaScript"> </CheckBox>
                 
         </Grid>
         
