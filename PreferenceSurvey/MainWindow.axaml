@@ -6,21 +6,29 @@
         x:Class="PreferenceSurvey.MainWindow"
         Title="PreferenceSurvey">
     
-        <Grid HorizontalAlignment="Center" Width="200" Height="300">
+        <Grid HorizontalAlignment="Center" Width="200" Height="400">
                 <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="4*"/>
-                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 
                 
                 
-                <TextBlock Grid.Row="0" Grid.Column="0" FontSize="20" Grid.ColumnSpan="2" Width="200" Margin="0,0,0,30">Ankieta Preferencji</TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="0" FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,0,0,20">Ankieta Preferencji</TextBlock>
                 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Podaj imię:" Margin="10"></TextBlock>
                 <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
@@ -34,7 +42,11 @@
                         <ComboBoxItem Content="Coś innego"></ComboBoxItem>
                 </ComboBox>
                 
-                <Button Grid.Row="0"></Button>
+                <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Content="Zatwierdź dane"></Button>
+                
+                <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,20,0,20" FontSize="20">Pytania:</TextBlock>
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Czy lubisz programować:"></TextBlock>
+                <TextBox Grid.Row="5" Grid.Column="1"></TextBox>
                 
         </Grid>
         
