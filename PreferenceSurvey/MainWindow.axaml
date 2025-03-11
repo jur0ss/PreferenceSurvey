@@ -5,5 +5,37 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="PreferenceSurvey.MainWindow"
         Title="PreferenceSurvey">
-    Welcome to Avalonia!
+    
+        <Grid HorizontalAlignment="Center" Width="200" Height="300">
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                
+                
+                <TextBlock Grid.Row="0" Grid.Column="0" FontSize="20" Grid.ColumnSpan="2" Width="200" Margin="0,0,0,30">Ankieta Preferencji</TextBlock>
+                
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Podaj imię:" Margin="10"></TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+                
+                <TextBlock Grid.Row="2" Grid.Column="0" Name="TextBox" Text="Zainteresowania:" Margin="10"></TextBlock>
+                <ComboBox Grid.Row="2" Grid.Column="1" Name="ComboBox">
+                        <ComboBoxItem Content="Sport"/>
+                        <ComboBoxItem Content="Muzyka"/>
+                        <ComboBoxItem Content="Programowanie"/>
+                        <ComboBoxItem Content="Sztuka"/>
+                        <ComboBoxItem Content="Coś innego"></ComboBoxItem>
+                </ComboBox>
+                
+                <Button Grid.Row="0"></Button>
+                
+        </Grid>
+        
 </Window>
