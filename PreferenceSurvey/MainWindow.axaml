@@ -62,7 +62,7 @@
                 <TextBlock Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Text="Podsumowanie:" Margin="0,20,0,0" HorizontalAlignment="Center" FontSize="20"></TextBlock>
                 <Button Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Content="Wyświetl podsumowanie" Name="SubmitButton"></Button>
                 <StackPanel Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="2" Margin="20" Name="StackPanel">
-                        <TextBlock Name="Info"></TextBlock>
+                        <TextBlock Name="Info" HorizontalAlignment="Center"></TextBlock>
                 </StackPanel>
                 
         </Grid>

@@ -27,7 +27,13 @@ public partial class MainWindow : Window
         {
             var content = "Błąd";
             Info.Text = content;
-        };
+        }
+        else
+        {
+            var content = "Zatwierdzono dane";
+            Info.Text = content;
+        }
+        ;
     }
 
     private void SubmitButton_Click(object sender, RoutedEventArgs e)
@@ -35,7 +41,7 @@ public partial class MainWindow : Window
         try
         {
 
-            var textBox1Value = TextBox1.Text ?? "Nie wpisano imienia";
+            var textBox1Value = TextBox1.Text;
             
             var comboBoxValue = (ComboBox.SelectedItem as ComboBoxItem)?.Content?.ToString() ?? "Nie wybrano odpowiedzi";
 
