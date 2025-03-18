@@ -11,8 +11,7 @@ namespace PreferenceSurvey;
 public partial class MainWindow : Window
 {
 
-
-    private List<ComboBox> _groupCombo;
+    
     
     public MainWindow()
     {
@@ -26,11 +25,27 @@ public partial class MainWindow : Window
         try
         {
 
-            var textBoxValue = TextBox1.Text ?? "Nie wpisano imienia";
+            var textBox1Value = TextBox1.Text ?? "Nie wpisano imienia";
             
             var comboBoxValue = (ComboBox.SelectedItem as ComboBoxItem)?.Content?.ToString() ?? "Nie wybrano odpowiedzi";
+
+            var textBox2Value = TextBox2.Text ?? "Nie udzielono odpowiedzi";
+
+            var checkBox1Value = CheckBox1.IsChecked == true ? CheckBox1.Content : "";
             
-            var textBox2Value = TextBox2.Text ?? "Nie udzielono odpowiedzi"
+            var checkBox2Value = CheckBox1.IsChecked == true ? CheckBox2.Content : "";
+            
+            var checkBox3Value = CheckBox1.IsChecked == true ? CheckBox3.Content : "";
+            
+            var checkBox4Value = CheckBox1.IsChecked == true ? CheckBox4.Content : "";
+
+            var content = $"Imię: {textBox1Value}\n" +
+                          $"Zainteresowanie: {comboBoxValue}\n" +
+                          $" W programowaniu lubisz: {textBox2Value}" +
+                          $"\n Języki które lubisz: {checkBox1Value}, {checkBox2Value}, {checkBox3Value}, {checkBox4Value}"
+                          ;
+
+            Info.Text = content;
 
 
         }
