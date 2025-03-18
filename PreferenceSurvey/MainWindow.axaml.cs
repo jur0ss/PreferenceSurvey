@@ -23,16 +23,11 @@ public partial class MainWindow : Window
 
     private void DataButton_Click(object sender, RoutedEventArgs e)
     {
-        try
+        if (string.IsNullOrEmpty(TextBox1.Text))
         {
-            
-
-        }
-        catch (Exception exception)
-        {
-            Console.WriteLine(exception);
-            throw;
-        }
+            var content = "Błąd";
+            Info.Text = content;
+        };
     }
 
     private void SubmitButton_Click(object sender, RoutedEventArgs e)
