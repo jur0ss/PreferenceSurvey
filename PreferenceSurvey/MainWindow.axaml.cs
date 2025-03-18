@@ -17,7 +17,22 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
 
+        DataButton.Click += DataButton_Click;
         SubmitButton.Click += SubmitButton_Click;
+    }
+
+    private void DataButton_Click(object sender, RoutedEventArgs e)
+    {
+        try
+        {
+            
+
+        }
+        catch (Exception exception)
+        {
+            Console.WriteLine(exception);
+            throw;
+        }
     }
 
     private void SubmitButton_Click(object sender, RoutedEventArgs e)
