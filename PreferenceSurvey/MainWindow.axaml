@@ -34,9 +34,9 @@
                 <TextBlock Grid.Row="0" Grid.Column="0" FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,0,0,20">Ankieta Preferencji</TextBlock>
                 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Podaj imię:" Margin="10"></TextBlock>
-                <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="TextBox1"></TextBox>
                 
-                <TextBlock Grid.Row="2" Grid.Column="0" Name="TextBox" Text="Zainteresowania:" Margin="10"></TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Zainteresowania:" Margin="10"></TextBlock>
                 <ComboBox Grid.Row="2" Grid.Column="1" Name="ComboBox">
                         <ComboBoxItem Content="Sport"/>
                         <ComboBoxItem Content="Muzyka"/>
@@ -48,18 +48,19 @@
                 <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Content="Zatwierdź dane"></Button>
                 
                 <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,20,0,20" FontSize="20">Pytania:</TextBlock>
-                <TextBlock Grid.Row="5" Grid.Column="0" Text="Czy lubisz programować:" Margin="10"></TextBlock>
-                <TextBox Grid.Row="5" Grid.Column="1"></TextBox>
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Co lubisz w programowaniu?:" Margin="10"></TextBlock>
+                <TextBox Grid.Row="5" Grid.Column="1" Name="TextBox2"></TextBox>
                 
-                <TextBlock Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="W których językach przyjemnie ci się programuje:" Margin="0,20,0,0"></TextBlock>
+                <TextBlock Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Text="W których językach przyjemnie ci się programuje?:" Margin="0,20,0,0"></TextBlock>
                 
                 <CheckBox Grid.Row="7" Grid.Column="0" Margin="10" Content="C#"> </CheckBox>
                 <CheckBox Grid.Row="7" Grid.Column="1" Margin="10" Content="Kotlin"> </CheckBox>
                 
-                <CheckBox Grid.Row="8" Grid.Column="0" Margin="10" Content="Pythona"> </CheckBox>
+                <CheckBox Grid.Row="8" Grid.Column="0" Margin="10" Content="Python"> </CheckBox>
                 <CheckBox Grid.Row="8" Grid.Column="1" Margin="10" Content="JavaScript"> </CheckBox>
                 
                 <TextBlock Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Text="Podsumowanie:" Margin="0,20,0,0" HorizontalAlignment="Center" FontSize="20"></TextBlock>
+                <Button Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Content="Wyświetl podsumowanie"></Button>
                 
         </Grid>
         
