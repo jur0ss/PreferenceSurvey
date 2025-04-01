@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jurekg1/RiderProjects/PreferenceSurvey/PreferenceSurvey/PreferenceSurvey.csproj": {}
+    "C:\\Users\\jurek\\RiderProjects\\PreferenceSurvey\\PreferenceSurvey\\PreferenceSurvey.csproj": {}
   },
   "projects": {
-    "/home/jurekg1/RiderProjects/PreferenceSurvey/PreferenceSurvey/PreferenceSurvey.csproj": {
+    "C:\\Users\\jurek\\RiderProjects\\PreferenceSurvey\\PreferenceSurvey\\PreferenceSurvey.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jurekg1/RiderProjects/PreferenceSurvey/PreferenceSurvey/PreferenceSurvey.csproj",
+        "projectUniqueName": "C:\\Users\\jurek\\RiderProjects\\PreferenceSurvey\\PreferenceSurvey\\PreferenceSurvey.csproj",
         "projectName": "PreferenceSurvey",
-        "projectPath": "/home/jurekg1/RiderProjects/PreferenceSurvey/PreferenceSurvey/PreferenceSurvey.csproj",
-        "packagesPath": "/home/jurekg1/.nuget/packages/",
-        "outputPath": "/home/jurekg1/RiderProjects/PreferenceSurvey/PreferenceSurvey/obj/",
+        "projectPath": "C:\\Users\\jurek\\RiderProjects\\PreferenceSurvey\\PreferenceSurvey\\PreferenceSurvey.csproj",
+        "packagesPath": "C:\\Users\\jurek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jurek\\RiderProjects\\PreferenceSurvey\\PreferenceSurvey\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jurekg1/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jurek\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/jurekg1/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\jurek\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
